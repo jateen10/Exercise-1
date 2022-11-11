@@ -26,24 +26,24 @@ stop<br>
 ## task 2<br>
 ### Algorithm<br>
 Convert numbers to Ordinal words Algorithm<br>
-strt<br>
-step1:create a function Num-to-words with pararmeters number and output<br>
-step2: inside the function create an if statement such that if the number is 0 <br>
+strt <br>
+step 1 :create a function Num-to-words with pararmeters number and output<br>
+step 2 : inside the function create an if statement such that if the number is 0 <br>
 the result will be "zeroth"<br>
-step3: create 4 arrays<br>
-   array1 contains all numbers from 1 to 9 in words <br>
-   array2 contains all numbers multiple of 10  from 10 to 90 in words <br>
-   array3 contains all numbers from 1 to 9 in ordinal words <br>
-   array4 contains all numbers multiple of 10 from 10 to 90 in ordinal words<br>
-step4: create nested if statement such that if number is modulo divisible by 10 the digit is in ones place and so on<br>
-step5: create nested if statements such that if the digit is in hundreds place output the digit from array 1 and 2 followed by the word hundred and <br>
+step 3 : create 4 arrays<br>
+   array 1 contains all numbers from 1 to 9 in words <br>
+   array 2 contains all numbers multiple of 10  from 10 to 90 in words <br>
+   array 3 contains all numbers from 1 to 9 in ordinal words <br>
+   array 4 contains all numbers multiple of 10 from 10 to 90 in ordinal words<br>
+step 4 : create nested if statement such that if number is modulo divisible by 10 the digit is in ones place and so on<br>
+step 5 : create nested if statements such that if the digit is in hundreds place output the digit from array 1 and 2 followed by the word hundred and
 so on for thousands, millions etc<br>
-step6: create an if statement such that if the digit is in tens places and the digit in 0nes place is zero <br>
-output the coressponding value from  array 3<br>
+step 6 : create an if statement such that if the digit is in tens places and the digit in 0nes place is zero <br>
+output the coressponding value from  array 3<br><br>
 else if the digit in ones place is not zero and the digit at tens place is a non zero output<br>
 the coressponding value from array2 and 4<br>
-step7: return return output <br>
-step8: take the input for parameter number from the user and call the function Num-To-words<br>
+step 7 : return return output <br>
+step 8: take the input for parameter number from the user and call the function Num-To-words<br>
 print the entered number <br>
 output<br><br>
 stop<br>
