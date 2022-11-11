@@ -47,37 +47,37 @@ step 8: take the input for parameter number from the user and call the function 
 print the entered number <br>
 output<br><br>
 stop<br>
-### code in c++
-#include <stdio.h>
-#include <string.h>
+### code in c++<br>
+#include <stdio.h><br>
+#include <string.h><br>
+<br>
 
+char *single_digits[] = { “zero”, “one”, “two”, “three”, “four”,”five”,”six”, “seven”, “eight”, “nine”};<br>
 
-char *single_digits[] = { “zero”, “one”, “two”, “three”, “four”,”five”,”six”, “seven”, “eight”, “nine”};
+char *two_digits[] = {“”, “ten”, “eleven”, “twelve”, “thirteen”, “fourteen”,”fifteen”, “sixteen”,”seventeen”, “eighteen”, “nineteen”};<br>
 
-char *two_digits[] = {“”, “ten”, “eleven”, “twelve”, “thirteen”, “fourteen”,”fifteen”, “sixteen”,”seventeen”, “eighteen”, “nineteen”};
+char *tens_multiple[] = {“”, “”, “twenty”, “thirty”, “forty”, “fifty”,<br>
+“sixty”, “seventy”, “eighty”, “ninety”};<br>
 
-char *tens_multiple[] = {“”, “”, “twenty”, “thirty”, “forty”, “fifty”,
-“sixty”, “seventy”, “eighty”, “ninety”};
-
-char *tens_power[] = {“hundred”, “thousand”};
-/* single number*/
-if (len == 1) {
-printf(“%s\n”, single_digits[*num – ‘0’]);
-return;
+char *tens_power[] = {“hundred”, “thousand”};<br>
+/* single number*/<br>
+<br>if (len == 1) {
+<br>printf(“%s\n”, single_digits[*num – ‘0’]);
+<br>return;<br>
 }
-
-while (*num != ‘\0’) {
-if (len >= 3) {
-if (*num -‘0’ != 0) {
-printf(“%s “, single_digits[*num – ‘0’]);
-printf(“%s “, tens_power[len-3]); // here len can be 3 or 4
+<br>
+<br>while (*num != ‘\0’) {
+<br>if (len >= 3) {
+<br>if (*num -‘0’ != 0) {
+<br>printf(“%s “, single_digits[*num – ‘0’]);
+<br>printf(“%s “, tens_power[len-3]); // here len can be 3 or 4
 }
-–len;
+<br>–len;
 }
-
-/* Code for last 2 digits */
-else {
-if (*num == ‘1’) {
+<br>
+<br>/* Code for last 2 digits */
+<br>else {
+<br>if (*num == ‘1’) {
 int sum = *num – ‘0’ + *(num + 1)- ‘0’;
 printf(“%s\n”, two_digits[sum]);
 return;
