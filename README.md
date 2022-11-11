@@ -12,41 +12,41 @@ step 5:else if i divisible by 3:<br>
 step 6: print value (i)<br>
 stop<br>
 
-### code in pyton
- for i in range ( 1 ,30):
- if i %5 ==0, $ i % 3==0:
- print("fizzbuzz")
- elsif i % 5 == 0:
- print("fizzz"):
-  elsif i % 3 == 0:
- print("buzz")
- print (i)
+### code in pyton<br>
+ for i in range ( 1 ,30):<br>
+ if i %5 ==0, $ i % 3==0:<br>
+ print("fizzbuzz<br>
+ elsif i % 5 == 0:<br>
+ print("fizzz"):<br>
+  elsif i % 3 == 0<br>
+ print("buzz")<br>
+ print (i)<br>
 
-
-## task 2
-### Algorithm
-Convert numbers to Ordinal words Algorithm
-strt
-step1:create a function Num-to-words with pararmeters number and output
-step2: inside the function create an if statement such that if the number is 0 
-the result will be "zeroth"
-step3: create 4 arrays
-   array1 contains all numbers from 1 to 9 in words 
-   array2 contains all numbers multiple of 10  from 10 to 90 in words 
-   array3 contains all numbers from 1 to 9 in ordinal words 
-   array4 contains all numbers multiple of 10 from 10 to 90 in ordinal words
-step4: create nested if statement such that if number is modulo divisible by 10 the digit is in ones place and so on
-step5: create nested if statements such that if the digit is in hundreds place output the digit from array 1 and 2 followed by the word hundred and 
-so on for thousands, millions etc
-step6: create an if statement such that if the digit is in tens places and the digit in 0nes place is zero 
-output the coressponding value from  array 3
-else if the digit in ones place is not zero and the digit at tens place is a non zero output
-the coressponding value from array2 and 4
-step7: return return output 
-step8: take the input for parameter number from the user and call the function Num-To-words
-print the entered number 
-output
-stop
+<br>
+## task 2<br>
+### Algorithm<br>
+Convert numbers to Ordinal words Algorithm<br>
+strt<br>
+step1:create a function Num-to-words with pararmeters number and output<br>
+step2: inside the function create an if statement such that if the number is 0 <br>
+the result will be "zeroth"<br>
+step3: create 4 arrays<br>
+   array1 contains all numbers from 1 to 9 in words <br>
+   array2 contains all numbers multiple of 10  from 10 to 90 in words <br>
+   array3 contains all numbers from 1 to 9 in ordinal words <br>
+   array4 contains all numbers multiple of 10 from 10 to 90 in ordinal words<br>
+step4: create nested if statement such that if number is modulo divisible by 10 the digit is in ones place and so on<br>
+step5: create nested if statements such that if the digit is in hundreds place output the digit from array 1 and 2 followed by the word hundred and <br>
+so on for thousands, millions etc<br>
+step6: create an if statement such that if the digit is in tens places and the digit in 0nes place is zero <br>
+output the coressponding value from  array 3<br>
+else if the digit in ones place is not zero and the digit at tens place is a non zero output<br>
+the coressponding value from array2 and 4<br>
+step7: return return output <br>
+step8: take the input for parameter number from the user and call the function Num-To-words<br>
+print the entered number <br>
+output<br><br>
+stop<br>
 ### code in c++
 #include <stdio.h>
 #include <string.h>
