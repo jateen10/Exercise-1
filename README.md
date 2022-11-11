@@ -78,34 +78,34 @@ char *tens_power[] = {“hundred”, “thousand”};<br>
 <br>/* Code for last 2 digits */
 <br>else {
 <br>if (*num == ‘1’) {
-int sum = *num – ‘0’ + *(num + 1)- ‘0’;
-printf(“%s\n”, two_digits[sum]);
-return;
+<br>int sum = *num – ‘0’ + *(num + 1)- ‘0’;
+<br>printf(“%s\n”, two_digits[sum]);
+<br>return;
 }
-else if (*num == ‘2’ && *(num + 1) == ‘0’) {
-printf(“twenty\n”);
-return;
+<br>else if (*num == ‘2’ && *(num + 1) == ‘0’) {
+<br>printf(“twenty\n”);
+<br>return;
 }
-
-/* number range 21 to 99 */
-else {
-int i = *num – ‘0’;
-printf(“%s “, i? tens_multiple[i]: “”);
-++num;
-if (*num != ‘0’)
-printf(“%s “, single_digits[*num – ‘0’]);
-}
-}
-++num;
-}
-}
-
-int main(void)
-{
-char a[10];
-printf(“\nEnter the number : “);
+<br>
+<br>/* number range 21 to 99 */
+<br>else {
+<br>int i = *num – ‘0’;
+<br>printf(“%s “, i? tens_multiple[i]: “”);
+<br>++num;
+<br>if (*num != ‘0’)
+<br>printf(“%s “, single_digits[*num – ‘0’]);
+<br>}
+<br>}
+<br>++num;
+<br>}
+<br>}
+<br>
+<br>int main(void)
+<br>{
+<br>char a[10];
+<br>printf(“\nEnter the number : “);
 scanf(“%s”,a);
-printf(“\nThe number in word is “);
-convert(a);
-return 0;
-}
+<br>printf(“\nThe number in word is “);
+<br>convert(a);
+<br>return 0;
+<br>}
