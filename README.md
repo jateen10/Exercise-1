@@ -4,7 +4,7 @@
 step 1:intialize i= 0<br>
  step 2:for i=0 i, i greater equal to 30, i increment<br>
  step 3:if i divisible by 5 and i divisable 3<br>
-             print vaule ("fizzbuzz")<br><br>
+             print vaule ("fizzbuzz")<br>
 step 4: else if i divisible by 5:<br>
              print value ("buzz") <br>
 step 5:else if i divisible by 3:<br>
