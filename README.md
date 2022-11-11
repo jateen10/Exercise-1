@@ -1,16 +1,16 @@
-# Exercise
-## task 1
-### Algorithm
-step 1:intialize i= 0
- step 2:for i=0 i, i greater equal to 30, i increment
- step 3:if i divisible by 5 and i divisable 3
-             print vaule ("fizzbuzz")
-step 4: else if i divisible by 5:
-             print value ("buzz") 
-step 5:else if i divisible by 3:
-             print vaule ("fizz") 
-step 6: print value (i)
-stop
+# Exercise<br>
+## task 1<br>
+### Algorithm<br>
+step 1:intialize i= 0<br>
+ step 2:for i=0 i, i greater equal to 30, i increment<br>
+ step 3:if i divisible by 5 and i divisable 3<br>
+             print vaule ("fizzbuzz")<br><br>
+step 4: else if i divisible by 5:<br>
+             print value ("buzz") <br>
+step 5:else if i divisible by 3:<br>
+             print vaule ("fizz")<br>
+step 6: print value (i)<br>
+stop<br>
 
 ### code in pyton
  for i in range ( 1 ,30):
