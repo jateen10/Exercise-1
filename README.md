@@ -1,6 +1,6 @@
-# Exercise<br>
-## task 1<br>
-### Algorithm<br>
+# Exercise <br>
+## task 1 <br>
+### Algorithm <br>
 step 1:intialize i= 0<br>
  step 2:for i=0 i, i greater equal to 30, i increment<br>
  step 3:if i divisible by 5 and i divisable 3<br>
@@ -22,9 +22,9 @@ stop<br>
  print("buzz")<br>
  print (i)<br>
 
-<br>
-## task 2<br>
-### Algorithm<br>
+
+## task 2 <br>
+### Algorithm <br>
 Convert numbers to Ordinal words Algorithm<br>
 strt <br>
 step 1 :create a function Num-to-words with pararmeters number and output<br>
@@ -47,7 +47,7 @@ step 8: take the input for parameter number from the user and call the function 
 print the entered number <br>
 output<br><br>
 stop<br>
-### code in c++<br>
+### code in c++ <br>
 #include <stdio.h><br>
 #include <string.h><br>
 <br>
